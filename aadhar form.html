@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Aadhar Application</title>
+</head>
+<body>
+<fieldset>	
+<legend><font color="green"><h1><i>Aadhar Application Form</i></h1></font></legend>
+<form method="post" action="register">
+<table>
+<tr><td><b>NAME:</b><td><input type="text" name="name" required></td></td></tr>
+<tr><td><b>DOB:</b><td><input type="date" name="dob" required><td></td></tr>
+<tr><td><b>GENDER:</b><td><input type="radio" name="gender" value="male" required> MALE</td></td>
+<td><input type="radio" name="gender" value="female" required> FEMALE</td></td></tr>
+<tr><td><b>PHOTO:</b><td><input type="file" name="photo" accept="image/*" required></td></td></tr>
+<tr><td><b>PHONE NUMBER:</b><td><input type="tel" name="phone" required></td></td></tr>
+<tr><td><b>HOUSE NO. & STREET:</b><td><input type="text" name="street" required></td></td></tr>
+<tr><td><b>AREA:</b><td><input type="text" name="area" required></td></td></tr>
+<tr><td><b>CITY:</b><td><select name="city" required>
+<option value="Select City">Select City</option>
+<option value="Erode">Erode</option>
+<option value="Tirupur">Tirupur</option>
+<option value="Kovai">Kovai</option>
+<option value="Salem">Salem</option>
+<option value="Namakkal">Namakkal</option>
+<option value="Kochi">Kochi</option>
+<option value="Guruvayur">Guruvayur</option>
+<option value="Puducherry">Puducherry</option>
+</select></td></td></tr>
+<tr><td><b>STATE:</b><td><select name="state" required>
+<option value="Select State">Select State</option>
+<option value="Tamilnadu">Tamilnadu</option>
+<option value="Kerala">Kerala</option>
+<option value="Puducherry">Puducherry</option>
+</select></td></td></tr>
+<tr><td><b>PINCODE:</b><td><input type="number" name="pincode" required></td></td></tr>
+<tr><td><b>FATHER'S NAME:</b><td><input type="text" name="father" required></td></td></tr>
+<tr><td><b>MOTHER'S NAME:</b><td><input type="text" name="mother" required></td></td></tr>
+<tr><td><b>EMAIL ID:</b><td><input type="email" name="email" required></td></td></tr>
+<tr><td><b>PAN NUMBER:</b><td><input type="text" name="pan" required></td></td></tr>
+<tr><td><input type="checkbox" name="dec" required>I declaring that I'm citizen of India</td></tr>
+<tr><td><button type="Submit">APPLY NOW</button> <input type="reset" value="CLEAR"></td></tr>
+</table>
+</fieldset>
+</body>
