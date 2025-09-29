@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family:'Top Secret';
+    src: url(/fonts/Top\ Secret.ttf);
+}
+@font-face {
+    font-family:'Christmas Background' ;
+    src: url(/fonts/Christmas\ Background.otf);
+}
+body{
+    background-image: linear-gradient(60deg,#B97D10,#ef3b38);
+}
+h1{
+    font-style: italic;
+    font-family:'Top Secret';
+    font-size: 3rem;
+}
+p{
+    height: 350px;
+    width: 30%;
+    float: left;
+    border:1px solid black;
+    overflow: auto ;
+    font-family:'Christmas Background';
+    font-size: 1.8rem;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
