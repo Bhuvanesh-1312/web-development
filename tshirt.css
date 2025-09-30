@@ -1,0 +1,58 @@
+@font-face {
+      font-family:"KOMBIKAK";
+      src: url('/fonts/KOMIKAX_.ttf');
+}
+@font-face {
+      font-family:"Gecko_PersonalUseOnly";
+      src: url('/fonts/Gecko_PersonalUseOnly.ttf');
+}
+@font-face {
+      font-family:"Unrealised";
+      src: url('/fonts/Unrealised.ttf');
+}
+body{
+      background-image: linear-gradient(250deg,#def7a4,#f5caed);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+}
+ul{
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+      background-color:#afffd3;
+      overflow: hidden;
+}
+ul li{
+      float: left;
+}
+ul li a{
+      color: #000000;
+      display: block;
+      padding: 15px 15px;
+      text-decoration: none;
+      font-size: 1.25rem;
+      letter-spacing: 1px;
+      font-family:"KOMBIKAK";
+}
+ul li a:hover{
+      background-color: #d1cb7c;
+      text-decoration: underline;
+}
+.main{
+      font-family:"Gecko_PersonalUseOnly";
+      font-size: 4.2rem;
+}
+.sub{
+      font-family:"Gecko_PersonalUseOnly";
+      font-size: 3rem;
+      letter-spacing: 2px;
+}
+.dress{
+      text-align: left;
+      background-color: #95e7f1;
+      background-size: auto;
+      font-family:"Unrealised";
+      letter-spacing: 1.8px;
+      font-weight: lighter;
+}
