@@ -1,0 +1,116 @@
+@font-face {
+      font-family: "Hanged Letters";
+      src: url(/fonts/Hanged\ Letters.ttf);
+}
+@font-face {
+      font-family:"Chocolate Covered Raindrops";
+      src: url(/fonts/Chocolate\ Covered\ Raindrops.ttf);
+}
+@font-face {
+      font-family:"Gecko_PersonalUseOnly" ;
+      src: url(/fonts/Gecko_PersonalUseOnly.ttf);
+}
+@font-face {
+      font-family: "DancingScript-VariableFont_wght";
+      src: url(/fonts/DancingScript-VariableFont_wght.ttf);
+}
+body{
+      background-image: linear-gradient(130deg,#c5c7df,#bddde4,#e0cccc);
+}
+h1{
+      font-family: "Hanged Letters";
+      font-optical-sizing: auto;
+      font-weight: 400;
+      text-align: center;
+      font-style:normal;
+      font-size: 3.5rem;
+      color: #274772;
+      transform: rotate(360deg);
+      transition: 1s;
+}
+.card{
+      height: 460px;
+      width: 300px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;      
+      position: relative;
+      background-image: linear-gradient(130deg,#caefd7,#f8c0b4,#b8eeea,#e9b0ca);
+      transform: translate(10px,20px);
+      transition: 1s;
+}
+.card_img{
+      height: 200px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+}
+.card_img > img{
+      height: 100%;
+      width: 70%;
+}
+.card_title{
+      font-family: "Chocolate Covered Raindrops";
+      text-transform: capitalize;
+      font-size: 1.8rem;
+      font-weight: 800;
+      letter-spacing: 2px;
+      word-spacing: 3px;
+      text-align: center;
+      margin: 0px;
+      margin-top: 20px;
+      padding: 0px 10px;
+}
+.card_content{
+      font-family: "DancingScript-VariableFont_wght";
+      font-weight: 800;
+      font-size: 1.2rem;
+      letter-spacing: 1.5px;
+      word-spacing: 2.5px;
+      text-align: justify;
+      padding:0px 10px;
+      line-height: 22px;
+}
+.card_btn{
+      display: flex;
+      justify-content: center;
+}
+.btn{
+      outline:none;
+      border:none;
+      height: 35px;
+      width: 100px;
+      font-size: 1.1rem;
+      font-family:cursive;
+      font-weight: 500;
+      background-image: linear-gradient(200deg,#f8c899,#eeaff0);
+      color:#000000;
+      border-radius: 5px;
+}
+.btn:hover{
+      background-image: linear-gradient(20deg,#da727b,#7594eb);
+      color: white;
+      cursor: pointer;
+      font-weight: 500;
+      transition: .5s;
+}
+.row{
+      margin: auto;
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      margin-bottom: 50px;
+}
+.card_offer{
+      position: absolute;
+      top:-1px;
+      left: -3px;
+}
+.card_offer2{
+      position: absolute;
+      top: -10px;
+      left: 0px;
+}
+.card_offer3{
+      position: absolute;
+      top: -5px;
+      left: 0px;
+}
