@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Reverse Clock</title>
+    <style>
+      @font-face {
+        font-family: "Open24DisplaySt.ttf";
+        src: url(./fonts/Open\ 24\ Display\ St.ttf);
+      }
+
+      @font-face {
+        font-family: "AcademyFilled3D.ttf";
+        src: url(./fonts/AcademyFilled3D.ttf);
+      }
+
+      body {
+        background-image: url(./image/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .offer {
+        margin-top: 60px;
+        text-align: center;
+        justify-content: center;
+      }
+
+      .headset {
+        height: 420px;
+        background-image: radial-gradient(#f4b3b3, #f42929);
+        border-radius: 5px;
+      }
+
+      .text {
+        text-align: center;
+        color: cadetblue;
+        font-size: 2.5rem;
+        font-family: "AcademyFilled3D.ttf";
+        margin-top: 20px;
+        text-shadow: yellowgreen;
+      }
+
+      #clock {
+        text-align: center;
+        font-size: 5rem;
+        color: cadetblue;
+        font-family: "Open24DisplaySt.ttf";
+        letter-spacing: 10px;
+      }
+
+      .btn {
+        text-align: center;
+      }
+
+      button {
+        background-color: #d7a3a3;
+      }
+
+      button > a {
+        font-family: "AcademyFilled3D.ttf";
+        font-size: 1.5rem;
+        text-decoration: none;
+        list-style: none;
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="offer">
+      <div class="offer-product">
+        <img src="./image/headset.png" alt="headset" class="headset" />
+      </div>
+    </div>
+
+    <div class="text">OFFER ENDS SOON!!!!</div>
+
+    <div id="clock"></div>
+    
+    <div class="btn">
+      <button class="button"><a href="#">SHOP NOW!!!</a></button>
+    </div>
+
+    <script src="./clock-task.js"></script>
+  </body>
+</html>
